@@ -4,6 +4,12 @@ import "fmt"
 
 func main() {
 	var a, b, c int = 2, 3, 4
+	var name, my_var, myvar string = "golang", "jhon", "euro"
+
+	fmt.Println(name,
+		my_var,
+		myvar,
+	)
 	fmt.Println(a, b, c)
 
 }
