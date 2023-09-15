@@ -12,6 +12,16 @@ func main() {
 	)
 	fmt.Println(a, b, c)
 
+	// bush qiymat bulsa default 0 ni olib ketadi masalan -->var a int
+	var (
+		an int
+		bn int    = 1
+		cn string = "hello"
+	)
+
+	fmt.Println(an)
+	fmt.Println(bn)
+	fmt.Println(cn)
 }
 
 // main func println
