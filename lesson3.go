@@ -22,8 +22,15 @@ import "fmt"
 //	fmt.Println(arr6)
 //}
 
+//func main() {
+//	arr := [3]int{20, 30, 40}
+//	arr[1] = 50 // yani bu yerda array ni 1 index ni o'zgartirdim
+//	fmt.Println(arr)
+//}
+
+// Arrays da Faqat ma'lum elementlarni ishga tushir example
+
 func main() {
-	arr := [3]int{20, 30, 40}
-	arr[1] = 50 // yani bu yerda array ni 1 index ni o'zgartirdim
+	arr := [5]int{1: 30, 4: 50}
 	fmt.Println(arr)
 }
