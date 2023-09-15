@@ -29,7 +29,14 @@ import "fmt"
 //}
 
 // Arrays da Faqat ma'lum elementlarni ishga tushir example
+//func main() {
+//	arr := [5]int{1: 30, 4: 50}
+//	fmt.Println(arr)
+//}
+
+// Array ni len() funksiyasi orqali array uzunligin tekshirish
+
 func main() {
-	arr := [5]int{1: 30, 4: 50}
-	fmt.Println(arr)
+	arr := [6]string{"c#", "c++", "go", "python", "java"}
+	fmt.Println(len(arr)) // arr uzunligin tekshiramiz
 }
