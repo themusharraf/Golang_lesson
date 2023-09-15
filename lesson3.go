@@ -24,5 +24,6 @@ import "fmt"
 
 func main() {
 	arr := [3]int{20, 30, 40}
-	fmt.Print(arr)
+	arr[1] = 50 // yani bu yerda array ni 1 index ni o'zgartirdim
+	fmt.Println(arr)
 }
