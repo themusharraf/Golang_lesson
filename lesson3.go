@@ -31,5 +31,5 @@ import "fmt"
 // Arrays da Faqat ma'lum elementlarni ishga tushir example
 func main() {
 	arr := [5]int{1: 30, 4: 50}
-	fmt.Println(len(arr))
+	fmt.Println(arr)
 }
