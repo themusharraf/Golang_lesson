@@ -12,7 +12,7 @@ func main() {
 	)
 	fmt.Println(a, b, c)
 
-	// bush qiymat bulsa default 0 ni olib ketadi masalan -->var a int
+	// bush qiymat bulsa default 0 ni olib ketadi masalan --> var a int
 	var (
 		an int
 		bn int    = 1
