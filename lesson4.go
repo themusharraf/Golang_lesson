@@ -10,7 +10,7 @@ func main() {
 	fmt.Println(len(arr1))
 
 	// go Slices orqali array malumotlarni olish
-	myslice := arr1[0:2]
+	myslice := arr1[0:2] // 0 dan 2 gacha malumotlarni olish uchun Slice ishlatilishi
 
 	fmt.Println(myslice)
 
