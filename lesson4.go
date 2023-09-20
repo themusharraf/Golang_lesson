@@ -8,4 +8,10 @@ func main() {
 	arr := [...]int{1, 3, 4, 5, 6, 7}
 	fmt.Println(len(arr))
 	fmt.Println(len(arr1))
+
+	// go Slices orqali array malumotlarni olish
+	myslice := arr1[0:2]
+
+	fmt.Println(myslice)
+
 }
